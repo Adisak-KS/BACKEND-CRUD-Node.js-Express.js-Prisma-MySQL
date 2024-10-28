@@ -1,7 +1,6 @@
 const prisma = require('../prisma/prisma')
 
 
-
 exports.create = async (req, res) => {
     try {
         const { name, price } = req.body
