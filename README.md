@@ -68,6 +68,6 @@
 
         1. ดูข้อมูลทั้งหมด           [get] http://localhost:5000/api/product
         2. เพิ่มข้อมูล              [post] http://localhost:5000/api/product
-        3. ดูข้อมูลเฉพาะ Id นั้น     [post] http://localhost:5000/api/product/:productId เช่น http://localhost:5000/api/product/1
+        3. ดูข้อมูลเฉพาะ Id นั้น     [get] http://localhost:5000/api/product/:productId เช่น http://localhost:5000/api/product/1
         4. อัปเดทข้อมูล            [put] http://localhost:5000/api/product/:productId เช่น http://localhost:5000/api/product/1
         5. ลบข้อมูล               [delete] http://localhost:5000/api/product/:productId เช่น http://localhost:5000/api/product/1 
